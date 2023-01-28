@@ -18,7 +18,7 @@ const Menu = React.memo(() => (
     style={{
       backgroundColor: 'rgba(0,0,0,0.9)',
       maxHeight: '20rem',
-      width: isMobile ? '100%' : '20rem',
+      width: isMobile ? '100%' : 'auto',
       height: 'max-content',
       padding: isMobile ? '1rem' : '0.5rem',
     }}

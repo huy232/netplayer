@@ -37,16 +37,11 @@
 }
 
 .baseItemTitle {
-  padding-left: 1rem;
+  padding-left: 0.2rem;
+  padding-right: 0.8rem;
 }
 
 .activeIconContainer {
-  position: absolute;
-  left: 0.5rem;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 1.5rem;
-  height: 1.5rem;
 }
 
 .subMenuContainer > * + * {
@@ -56,10 +51,7 @@
 .subMenuSlotContainer {
   display: flex;
   align-items: center;
-  position: absolute;
-  right: 0.5rem;
-  top: 50%;
-  transform: translateY(-50%);
+  margin-left: auto
 }
 
 .subMenuSlotContainer > * + * {
